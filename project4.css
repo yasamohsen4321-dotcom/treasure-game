@@ -1,0 +1,47 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    text-align: center;
+    height: 100vh;
+    background-image: url(https://img.freepik.com/free-vector/abstract-seamless-geometric-shape-lines-pattern-design-background_84443-23990.jpg?semt=ais_hybrid&w=740&q=80);
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    text-shadow: 2px 0 1px gray;
+    letter-spacing: 2px;
+    color: rgb(145, 125, 13);
+    background-color: rgb(48, 176, 176);
+    width: fit-content;
+    margin: 0 auto;
+    border: 5px double rgb(179, 179, 102);
+    border-radius: 10px;
+}
+
+button{
+    border: none;
+    background-color: rgb(84, 191, 159);
+    color: black;
+    font-size: 15px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:active{
+    scale: 1.1;
+    background-color: rgb(9, 91, 91);
+}
+
+.image{
+    height: 100px;
+    transition: 0.2s;
+}
+
+.image:hover{
+    scale: 1.1;
+}
